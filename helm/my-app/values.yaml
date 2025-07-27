@@ -1,0 +1,10 @@
+replicaCount: 3
+
+image:
+  repository: ghcr.io/bs885/ci_cd_lesson2
+  tag: main
+
+service:
+  name: my-app-service
+  type: ClusterIP
+  port: 80
